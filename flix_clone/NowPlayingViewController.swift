@@ -8,17 +8,94 @@
 
 import UIKit
 import AlamofireImage
+import Reachability
 
 class NowPlayingViewController: UIViewController, UITableViewDataSource {
-
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var tableView: UITableView!
     var movies: [[String: Any]] = []
+    var refreshControl: UIRefreshControl!
+    var boolean = false
+    
+   
+
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        tableView.isHidden = true
+        activityIndicator.startAnimating()
+        refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(NowPlayingViewController.didPullToRefresh(_:)), for: .valueChanged)
+        tableView.insertSubview(refreshControl, at: 0)
         tableView.dataSource = self
+        fetchMovies()
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2), execute: {
+            self.activityIndicator.stopAnimating()
+            let reachability = Reachability()!
+            
+            if(reachability.connection == .none){
+                print("yo")
+                self.tableView.isHidden = false
+                let alertController = UIAlertController(title: "Cannot get movies", message: "The Internet connection appears to be offline", preferredStyle: .actionSheet)
+                let tryAgainAction = UIAlertAction(title: "Try Again", style: .default) { (action) in
+                    //if(self.reachabilityChanged()==1){
+                      //  print("hello")
+                    let reachabilityAgain = Reachability()
+                    if(reachabilityAgain?.connection != .none){
+                        self.viewDidLoad()
+                        //self.fetchMovies()
+                        //self.boolean = true
+                    }
+                    
+                }
+                alertController.addAction(tryAgainAction)
+                
+                let cancelAction = UIAlertAction(title: "Cancel", style: .cancel){ (action) in
+                }
+                alertController.addAction(cancelAction)
+                self.present(alertController, animated: true){
+                    
+                }
+                
+            }
+            else {
+                print("yes")
+                self.tableView.isHidden = false
+            }
+        })
+        }
+ 
+    func didPullToRefresh(_ refreshControl: UIRefreshControl) {
+        //activityIndicator.startAnimating()
+        //JJHUD.showLoading()
+        fetchMovies()
+        //JJHUD.hide()
+        //activityIndicator.stopAnimating()
         
+    }
+    
+    func reachabilityChanged() -> intmax_t {
+        
+        let reachability = Reachability()
+        
+        
+        if(reachability?.connection != .none){
+            return 1
+        }
+        else{
+            return 2
+        }
+        
+        
+        
+    }
+    
+   
+        
+        
+    
+    func fetchMovies() {
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
         
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
@@ -32,11 +109,13 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
                 let movies = dataDictionary["results"] as! [[String: Any]]
                 self.movies = movies
                 self.tableView.reloadData()
+                self.refreshControl.endRefreshing()
+                
                 
             }
         }
         task.resume()
-        }
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return movies.count
