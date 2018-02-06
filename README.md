@@ -4,7 +4,7 @@
 
 **Name of your app** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **2** hours spent in total
+Time spent: **4 1/2** hours spent in total
 
 ## User Stories
 
@@ -12,12 +12,12 @@ The following **required** user stories are complete:
 
 - [x] User sees app icon in home screen and styled launch screen (+1pt)
 - [x] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
-- [ ] User can "Pull to refresh" the movie list (+2pt)
-- [ ] User sees a loading state while waiting for the movies to load (+2pt)
+- [x] User can "Pull to refresh" the movie list (+2pt)
+- [x] User sees a loading state while waiting for the movies to load (+2pt)
 
 The following **optional** user stories are implemented:
 
-- [ ] User sees an alert when there's a networking error (+1pt)
+- [x] User sees an alert when there's a networking error (+1pt)
 - [ ] User can search for a movie (+3pt)
 - [ ] While poster is being fetched, user see's a placeholder image (+1pt)
 - [ ] User sees image transition for images coming from network, not when it is loaded from cache (+1pt)
@@ -26,7 +26,9 @@ The following **optional** user stories are implemented:
 
 The following **additional** user stories are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
+- [x] List anything else that you can get done to improve the app functionality! (+1-3pts)
+   If there was a settings page, so the user could have more control. Change the coloring of the app/text.
+   Any more of the optionals of course. 
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
@@ -37,7 +39,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/VtZ1S title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/VtZ1S.gif title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
