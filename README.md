@@ -39,7 +39,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src="https://imgur.com/a/VtZ1S.gif" title='Style Launch Screen' width = "100" height = "100" />
+<img src="https://imgur.com/a/VtZ1S.gif" width = "100" height = "100" />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -49,7 +49,7 @@ Describe any challenges encountered while building the app.
     It's difficult understanding what every part of the code is doing, but I assume that this will be less of a problem as I deal with more SWIFT code. 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Justin Lee]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
