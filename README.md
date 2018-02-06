@@ -39,7 +39,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/VtZ1S.gif title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="https://imgur.com/a/VtZ1S.gif" title='Style Launch Screen' width = "100" height = "100" />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
