@@ -39,7 +39,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src="https://imgur.com/a/VtZ1S.gif" width = "100" height = "100" />
+<img src="https://giphy.com/gifs/3ohs4uC1qx1sdGxaKY.gif" width = "100" height = "100" />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
