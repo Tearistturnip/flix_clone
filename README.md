@@ -25,6 +25,7 @@ The following **optional** user stories are implemented:
 - [ ] For the large poster, load the low resolution image first and then switch to the high resolution image when complete (+2pt)
 
 The following **additional** user stories are implemented:
+-[x] Alert has buttons with functionality to try refresh and fix the problem
 
 - [x] List anything else that you can get done to improve the app functionality! (+1-3pts)
    If there was a settings page, so the user could have more control. Change the coloring of the app/text.
@@ -39,7 +40,23 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src="https://giphy.com/gifs/3ohs4uC1qx1sdGxaKY.gif" width = "100" height = "100" />
+"https://giphy.com/gifs/3ohs4uC1qx1sdGxaKY" - App icon and styled launch screen
+
+
+"https://giphy.com/gifs/3ohs4znNsntZ2piut2" - Scroll through latest movies
+
+
+"https://giphy.com/gifs/xThtamJ6xzpESaVk8E" - Pull to Refresh
+
+
+"https://giphy.com/gifs/xThtaa0FL4b8ZM4f4c" - Loading state while waiting for movies to load
+
+
+"https://giphy.com/gifs/26DNdgd7C3l0e2cCc" - User sees alert when there's a network error and is able to press try again to fix the issue. 
+
+Problem with gifs. They all showed up as question marks, so I decided to just have links. Apparently, on github, there's issues if the files are too big. I dont know if that was the issue, but they wouldn't show up despite having the right format. Sorry about the trouble. '
+
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
