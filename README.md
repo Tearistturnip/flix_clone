@@ -40,7 +40,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-"https://giphy.com/gifs/3ohs4uC1qx1sdGxaKY" - App icon and styled launch screen
+<a href="https://giphy.com/gifs/3ohs4uC1qx1sdGxaKY"><img src="https://giphy.com/gifs/3ohs4uC1qx1sdGxaKY.gif" title="App icon and styled launch screen"/></>
 
 
 "https://giphy.com/gifs/3ohs4znNsntZ2piut2" - Scroll through latest movies
