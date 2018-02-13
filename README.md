@@ -76,7 +76,7 @@ User sees alert when there's a network error and is able to press try again to f
 
 
 
-<img src='https://imgur.com/UrFknTT.gif' title='User sees alert when there's a network error and is able to press try again to fix the issue' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/UrFknTT' title='Wifi Problem Message' width='' alt='Video Walkthrough' />
 
 
 
