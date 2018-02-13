@@ -10,6 +10,9 @@
 		641C2CFA973E77D24152D15B /* Pods_flix_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7713BC6BA93D3153ECF6E76D /* Pods_flix_clone.framework */; };
 		736E4F6C76F9C228020AC3D2 /* Pods_flix_cloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1B300354365EAD5EE8B74C /* Pods_flix_cloneUITests.framework */; };
 		8B3CE303202A6BA10011EFDF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CE302202A6BA10011EFDF /* DetailViewController.swift */; };
+		8B3CE305202A8A7F0011EFDF /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CE304202A8A7F0011EFDF /* PosterCell.swift */; };
+		8B3CE307202A8B010011EFDF /* SuperHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CE306202A8B010011EFDF /* SuperHeroViewController.swift */; };
+		8B3CE30B203292A00011EFDF /* SuperHeroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3CE30A203292A00011EFDF /* SuperHeroDetailViewController.swift */; };
 		8BF1259E20202BF0008CF579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1259D20202BF0008CF579 /* AppDelegate.swift */; };
 		8BF125A320202BF0008CF579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF125A120202BF0008CF579 /* Main.storyboard */; };
 		8BF125A520202BF0008CF579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF125A420202BF0008CF579 /* Assets.xcassets */; };
@@ -46,6 +49,9 @@
 		65A750665AFD691DDB02F965 /* Pods-flix_clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flix_clone.release.xcconfig"; path = "Pods/Target Support Files/Pods-flix_clone/Pods-flix_clone.release.xcconfig"; sourceTree = "<group>"; };
 		7713BC6BA93D3153ECF6E76D /* Pods_flix_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flix_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3CE302202A6BA10011EFDF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8B3CE304202A8A7F0011EFDF /* PosterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		8B3CE306202A8B010011EFDF /* SuperHeroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroViewController.swift; sourceTree = "<group>"; };
+		8B3CE30A203292A00011EFDF /* SuperHeroDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperHeroDetailViewController.swift; sourceTree = "<group>"; };
 		8BF1259A20202BF0008CF579 /* flix_clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flix_clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF1259D20202BF0008CF579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BF125A220202BF0008CF579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -121,6 +127,8 @@
 			children = (
 				8BF125CB20204AFB008CF579 /* NowPlayingViewController.swift */,
 				8B3CE302202A6BA10011EFDF /* DetailViewController.swift */,
+				8B3CE306202A8B010011EFDF /* SuperHeroViewController.swift */,
+				8B3CE30A203292A00011EFDF /* SuperHeroDetailViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -129,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				8BF125CD2020601F008CF579 /* MovieCell.swift */,
+				8B3CE304202A8A7F0011EFDF /* PosterCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -486,10 +495,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3CE307202A8B010011EFDF /* SuperHeroViewController.swift in Sources */,
 				8BF125CC20204AFB008CF579 /* NowPlayingViewController.swift in Sources */,
+				8B3CE305202A8A7F0011EFDF /* PosterCell.swift in Sources */,
 				8BF1259E20202BF0008CF579 /* AppDelegate.swift in Sources */,
 				8BF125CE2020601F008CF579 /* MovieCell.swift in Sources */,
 				8B3CE303202A6BA10011EFDF /* DetailViewController.swift in Sources */,
+				8B3CE30B203292A00011EFDF /* SuperHeroDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
