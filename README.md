@@ -39,7 +39,11 @@ Please list two areas of the assignment you'd like to **discuss further with you
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<img src='https://imgur.com/01LHi1z.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<img src='https://imgur.com/f4keXYg.gif' title='App icon and styled launch screen' width='' alt='Video Walkthrough' />
+
+
+
 
 <img src='https://giphy.com/gifs/3ohs4uC1qx1sdGxaKY.gif' title='App icon and styled launch screen' width='' alt='Video Walkthrough' />
 
@@ -57,6 +61,15 @@ Here's a walkthrough of implemented user stories:
 
 
 "https://giphy.com/gifs/26DNdgd7C3l0e2cCc" - User sees alert when there's a network error and is able to press try again to fix the issue. 
+
+
+
+
+<img src='https://imgur.com/01LHi1z.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
+
+
 
 Problem with gifs. They all showed up as question marks, so I decided to just have links. Apparently, on github, there's issues if the files are too big. I dont know if that was the issue, but they wouldn't show up despite having the right format. Sorry about the trouble. '
 
