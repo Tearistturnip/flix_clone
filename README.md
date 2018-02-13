@@ -40,29 +40,24 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
+App Icon and Styled Launch Screen:
 <img src='https://imgur.com/f4keXYg.gif' title='App icon and styled launch screen' width='' alt='Video Walkthrough' />
 
 
+Scroll Through Latest Movies:
+<img src='https://imgur.com/2yLOOM0.gif' title='Scroll through lates movies' width='' alt='Video Walkthrough' />
 
 
-<img src='https://giphy.com/gifs/3ohs4uC1qx1sdGxaKY.gif' title='App icon and styled launch screen' width='' alt='Video Walkthrough' />
+Pull to Refresh:
+<img src='https://imgur.com/79jaWA3.gif' title='Pull to Refresh' width='' alt='Video Walkthrough' />
 
 
-"https://giphy.com/gifs/3ohs4uC1qx1sdGxaKY.gif" - App icon and styled launch screen"
+Loading State While Waiting for Movies to Load:
+<img src='https://imgur.com/BvQDMlP.gif' title='Loading State While Waiting for Movies to Load' width='' alt='Video Walkthrough' />
 
 
-"https://giphy.com/gifs/3ohs4znNsntZ2piut2" - Scroll through latest movies
-
-
-"https://giphy.com/gifs/xThtamJ6xzpESaVk8E" - Pull to Refresh
-
-
-"https://giphy.com/gifs/xThtaa0FL4b8ZM4f4c" - Loading state while waiting for movies to load
-
-
-"https://giphy.com/gifs/26DNdgd7C3l0e2cCc" - User sees alert when there's a network error and is able to press try again to fix the issue. 
-
-
+User sees alert when there's a network error and is able to press try again to fix the issue:
+<img src='https://imgur.com/UrFknTT.gif' title='User sees alert when there's a network error and is able to press try again to fix the issue' width='' alt='Video Walkthrough' />
 
 
 <img src='https://imgur.com/01LHi1z.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
