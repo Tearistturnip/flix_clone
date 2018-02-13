@@ -39,7 +39,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<img src='https://i.imgur.com/sGf7ILU.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/01LHi1z.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <img src='https://giphy.com/gifs/3ohs4uC1qx1sdGxaKY.gif' title='App icon and styled launch screen' width='' alt='Video Walkthrough' />
 
