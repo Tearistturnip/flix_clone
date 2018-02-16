@@ -17,6 +17,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     var refreshControl: UIRefreshControl!
     var boolean = false
     
+    
    
 
     
@@ -57,14 +58,19 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
                 self.present(alertController, animated: true){
                     
                 }
-                
             }
             else {
-                print("yes")
+                //print("yes")
                 self.tableView.isHidden = false
             }
         })
         }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        if let indexPath = tableView.indexPathForSelectedRow {
+            tableView.deselectRow(at: indexPath, animated: true)
+        }
+    }
  
     func didPullToRefresh(_ refreshControl: UIRefreshControl) {
         //activityIndicator.startAnimating()
@@ -135,6 +141,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         cell.posterImageView.af_setImage(withURL: posterURL)
         return cell
     }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         let cell = sender as! UITableViewCell
