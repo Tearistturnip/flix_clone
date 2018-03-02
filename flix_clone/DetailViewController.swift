@@ -16,7 +16,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var releaseDateLabel: UILabel!
     @IBOutlet weak var overViewLabel: UILabel!
     
-    var movie: [String: Any]?
+    var movie: Movie?
     
     
     
@@ -25,18 +25,11 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         
         if let movie = movie {
-            titleLabel.text = movie["title"] as? String
-            releaseDateLabel.text = movie["release_date"] as? String
-            overViewLabel.text = movie["overview"] as? String
-            let backdropPathString = movie["backdrop_path"] as! String
-            let posterString = movie["poster_path"] as! String
-            let baseURLString = "https://image.tmdb.org/t/p/w500"
-            
-            let backdropURL = URL(string: baseURLString + backdropPathString)!
-            backDropImageView.af_setImage(withURL: backdropURL)
-            
-            let posterURL = URL(string: baseURLString + posterString)!
-            posterImageView.af_setImage(withURL: posterURL)
+            titleLabel.text = movie.title
+            releaseDateLabel.text = movie.releaseDate
+            overViewLabel.text = movie.overview
+            backDropImageView.af_setImage(withURL: movie.backdropUrl!)
+            posterImageView.af_setImage(withURL: movie.posterUrl!)
             
         }
 
